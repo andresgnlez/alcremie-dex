@@ -1,17 +1,36 @@
+import Head from 'next/head';
+
+import ALCREMIES from 'data/alcremies.json';
+
 const Home: React.FC = () => (
-  <div>
-    <h1>Welcome to Vizzuality Front End scaffold project.</h1>
-    <p>Remember to edit:</p>
-    <ul>
-      <li>package.json</li>
-      <li>pages/app.js</li>
-      <li>now.json (Vercel)</li>
-    </ul>
-    <p>
-      Also, we strongly recommend to read and follow our [Standardization
-      guidelines](https://vizzuality.github.io/devismos/docs/guidelines/standardization/).
-    </p>
-  </div>
+  <>
+    <Head>
+      <title>Alcremie Dex</title>
+    </Head>
+    <div className="max-w-screen-xl m-auto">
+      {ALCREMIES.data.map(({ family, members }) => (
+        <>
+          <h2>{family}</h2>
+
+          <ul className="grid md: grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-x-2.5">
+            {members.map((alcremie) => (
+              <li key={alcremie.id} className="w-full mt-5 border rounded-md">
+                <div className="border-b p-2">
+                  <h3 className="text-center">{alcremie.name}</h3>
+                </div>
+                <div
+                  className="h-72 bg-contain bg-center bg-no-repeat"
+                  style={{
+                    backgroundImage: `url(/images/alcremies/${alcremie.id}.png)`,
+                  }}
+                />
+              </li>
+            ))}
+          </ul>
+        </>
+      ))}
+    </div>
+  </>
 );
 
 export default Home;
