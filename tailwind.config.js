@@ -1,13 +1,5 @@
-/* eslint-disable @typescript-eslint/no-var-requires */
-const forms = require('@tailwindcss/forms');
-
-const lineClamp = require('./lib/tailwind/line-clamp');
-
 module.exports = {
-  purge: {
-    enabled: process.env.NODE_ENV !== 'development',
-    content: ['./**/*.ts', './**/*.tsx'],
-  },
+  purge: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {},
@@ -15,5 +7,5 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [forms, lineClamp],
+  plugins: [],
 };
