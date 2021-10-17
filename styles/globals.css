@@ -2,35 +2,347 @@
 @tailwind components;
 @tailwind utilities;
 
-@-webkit-keyframes autofill {
-  0%,
-  100% {
-    color: #666;
-    background: transparent;
-  }
+.bg-vc_ribbon {
+  width: 512px; height: 512px;
+  background: url('/images/alcremie-sprite.webp') -10px -10px;
 }
 
-@layer base {
-  input[type='search']::-webkit-search-decoration,
-  input[type='search']::-webkit-search-cancel-button,
-  input[type='search']::-webkit-search-results-button,
-  input[type='search']::-webkit-search-results-decoration {
-    -webkit-appearance: none;
-  }
+.bg-vc_star {
+  width: 512px; height: 512px;
+  background: url('/images/alcremie-sprite.webp') -542px -10px;
 }
 
-@layer utilities {
-  /* We want a blur effect without having a high opacity background, but we still want the
-  background to be visible for the browsers that don't support backdrop-filter, so we double the
-  background opacity. This can be tested on Firefox. */
-  .bg-blur {
-    @apply bg-opacity-40;
-  }
+.bg-vc_strawberry {
+  width: 512px; height: 512px;
+  background: url('/images/alcremie-sprite.webp') -10px -542px;
+}
 
-  @supports (backdrop-filter: blur(4px)) {
-    .bg-blur {
-      @apply bg-opacity-20;
-      backdrop-filter: blur(4px);
-    }
-  }
+.bg-lc_berry {
+  width: 512px; height: 512px;
+  background: url('/images/alcremie-sprite.webp') -542px -542px;
+}
+
+.bg-lc_love {
+  width: 512px; height: 512px;
+  background: url('/images/alcremie-sprite.webp') -1074px -10px;
+}
+
+.bg-lc_star {
+  width: 512px; height: 512px;
+  background: url('/images/alcremie-sprite.webp') -1074px -542px;
+}
+
+.bg-lc_strawberry {
+  width: 512px; height: 512px;
+  background: url('/images/alcremie-sprite.webp') -10px -1074px;
+}
+
+.bg-mic_berry {
+  width: 512px; height: 512px;
+  background: url('/images/alcremie-sprite.webp') -542px -1074px;
+}
+
+.bg-mic_love {
+  width: 512px; height: 512px;
+  background: url('/images/alcremie-sprite.webp') -1074px -1074px;
+}
+
+.bg-mic_star {
+  width: 512px; height: 512px;
+  background: url('/images/alcremie-sprite.webp') -1606px -10px;
+}
+
+.bg-mic_strawberry {
+  width: 512px; height: 512px;
+  background: url('/images/alcremie-sprite.webp') -1606px -542px;
+}
+
+.bg-rc_berry {
+  width: 512px; height: 512px;
+  background: url('/images/alcremie-sprite.webp') -1606px -1074px;
+}
+
+.bg-rc_love {
+  width: 512px; height: 512px;
+  background: url('/images/alcremie-sprite.webp') -10px -1606px;
+}
+
+.bg-rc_star {
+  width: 512px; height: 512px;
+  background: url('/images/alcremie-sprite.webp') -542px -1606px;
+}
+
+.bg-rc_strawberry {
+  width: 512px; height: 512px;
+  background: url('/images/alcremie-sprite.webp') -1074px -1606px;
+}
+
+.bg-rs_berry {
+  width: 512px; height: 512px;
+  background: url('/images/alcremie-sprite.webp') -1606px -1606px;
+}
+
+.bg-cs_berry {
+  width: 512px; height: 512px;
+  background: url('/images/alcremie-sprite.webp') -2138px -10px;
+}
+
+.bg-cs_clover {
+  width: 512px; height: 512px;
+  background: url('/images/alcremie-sprite.webp') -2138px -542px;
+}
+
+.bg-cs_flower {
+  width: 512px; height: 512px;
+  background: url('/images/alcremie-sprite.webp') -2138px -1074px;
+}
+
+.bg-cs_love {
+  width: 512px; height: 512px;
+  background: url('/images/alcremie-sprite.webp') -2138px -1606px;
+}
+
+.bg-cs_ribbon {
+  width: 512px; height: 512px;
+  background: url('/images/alcremie-sprite.webp') -10px -2138px;
+}
+
+.bg-cs_star {
+  width: 512px; height: 512px;
+  background: url('/images/alcremie-sprite.webp') -542px -2138px;
+}
+
+.bg-cs_strawbery {
+  width: 512px; height: 512px;
+  background: url('/images/alcremie-sprite.webp') -1074px -2138px;
+}
+
+.bg-rs_love {
+  width: 512px; height: 512px;
+  background: url('/images/alcremie-sprite.webp') -1606px -2138px;
+}
+
+.bg-rs_star {
+  width: 512px; height: 512px;
+  background: url('/images/alcremie-sprite.webp') -2138px -2138px;
+}
+
+.bg-rs_strawberry {
+  width: 512px; height: 512px;
+  background: url('/images/alcremie-sprite.webp') -2670px -10px;
+}
+
+.bg-sc_berry {
+  width: 512px; height: 512px;
+  background: url('/images/alcremie-sprite.webp') -2670px -542px;
+}
+
+.bg-sc_clover {
+  width: 512px; height: 512px;
+  background: url('/images/alcremie-sprite.webp') -2670px -1074px;
+}
+
+.bg-sc_flower {
+  width: 512px; height: 512px;
+  background: url('/images/alcremie-sprite.webp') -2670px -1606px;
+}
+
+.bg-sc_love {
+  width: 512px; height: 512px;
+  background: url('/images/alcremie-sprite.webp') -2670px -2138px;
+}
+
+.bg-sc_ribbon {
+  width: 512px; height: 512px;
+  background: url('/images/alcremie-sprite.webp') -10px -2670px;
+}
+
+.bg-sc_star {
+  width: 512px; height: 512px;
+  background: url('/images/alcremie-sprite.webp') -542px -2670px;
+}
+
+.bg-sc_strawberry {
+  width: 512px; height: 512px;
+  background: url('/images/alcremie-sprite.webp') -1074px -2670px;
+}
+
+.bg-shiny_berry {
+  width: 512px; height: 512px;
+  background: url('/images/alcremie-sprite.webp') -1606px -2670px;
+}
+
+.bg-shiny_love {
+  width: 512px; height: 512px;
+  background: url('/images/alcremie-sprite.webp') -2138px -2670px;
+}
+
+.bg-shiny_strawberry {
+  width: 512px; height: 512px;
+  background: url('/images/alcremie-sprite.webp') -2670px -2670px;
+}
+
+.bg-vc_berry {
+  width: 512px; height: 512px;
+  background: url('/images/alcremie-sprite.webp') -3202px -10px;
+}
+
+.bg-vc_love {
+  width: 512px; height: 512px;
+  background: url('/images/alcremie-sprite.webp') -3202px -542px;
+}
+
+.bg-lc_clover {
+  width: 512px; height: 512px;
+  background: url('/images/alcremie-sprite.webp') -3202px -1074px;
+}
+
+.bg-lc_flower {
+  width: 512px; height: 512px;
+  background: url('/images/alcremie-sprite.webp') -3202px -1606px;
+}
+
+.bg-lc_ribbon {
+  width: 512px; height: 512px;
+  background: url('/images/alcremie-sprite.webp') -3202px -2138px;
+}
+
+.bg-mac_berry {
+  width: 512px; height: 512px;
+  background: url('/images/alcremie-sprite.webp') -3202px -2670px;
+}
+
+.bg-mac_clover {
+  width: 512px; height: 512px;
+  background: url('/images/alcremie-sprite.webp') -10px -3202px;
+}
+
+.bg-mac_flower {
+  width: 512px; height: 512px;
+  background: url('/images/alcremie-sprite.webp') -542px -3202px;
+}
+
+.bg-mac_love {
+  width: 512px; height: 512px;
+  background: url('/images/alcremie-sprite.webp') -1074px -3202px;
+}
+
+.bg-mac_ribbon {
+  width: 512px; height: 512px;
+  background: url('/images/alcremie-sprite.webp') -1606px -3202px;
+}
+
+.bg-mac_strawberry {
+  width: 512px; height: 512px;
+  background: url('/images/alcremie-sprite.webp') -2670px -3202px;
+}
+
+.bg-mic_clover {
+  width: 512px; height: 512px;
+  background: url('/images/alcremie-sprite.webp') -3202px -3202px;
+}
+
+.bg-mic_flower {
+  width: 512px; height: 512px;
+  background: url('/images/alcremie-sprite.webp') -3734px -10px;
+}
+
+.bg-mic_ribbon {
+  width: 512px; height: 512px;
+  background: url('/images/alcremie-sprite.webp') -3734px -542px;
+}
+
+.bg-ras_clover {
+  width: 512px; height: 512px;
+  background: url('/images/alcremie-sprite.webp') -3734px -1074px;
+}
+
+.bg-ras_flower {
+  width: 512px; height: 512px;
+  background: url('/images/alcremie-sprite.webp') -3734px -1606px;
+}
+
+.bg-ras_love {
+  width: 512px; height: 512px;
+  background: url('/images/alcremie-sprite.webp') -3734px -2138px;
+}
+
+.bg-ras_ribbon {
+  width: 512px; height: 512px;
+  background: url('/images/alcremie-sprite.webp') -3734px -2670px;
+}
+
+.bg-ras_star {
+  width: 512px; height: 512px;
+  background: url('/images/alcremie-sprite.webp') -3734px -3202px;
+}
+
+.bg-ras_strawberry {
+  width: 512px; height: 512px;
+  background: url('/images/alcremie-sprite.webp') -10px -3734px;
+}
+
+.bg-rc_clover {
+  width: 512px; height: 512px;
+  background: url('/images/alcremie-sprite.webp') -542px -3734px;
+}
+
+.bg-ras_berry {
+  width: 512px; height: 512px;
+  background: url('/images/alcremie-sprite.webp') -1074px -3734px;
+}
+
+.bg-rc_flower {
+  width: 512px; height: 512px;
+  background: url('/images/alcremie-sprite.webp') -1606px -3734px;
+}
+
+.bg-rc_ribbon {
+  width: 512px; height: 512px;
+  background: url('/images/alcremie-sprite.webp') -2138px -3734px;
+}
+
+.bg-rs_clover {
+  width: 512px; height: 512px;
+  background: url('/images/alcremie-sprite.webp') -2670px -3734px;
+}
+
+.bg-rs_flower {
+  width: 512px; height: 512px;
+  background: url('/images/alcremie-sprite.webp') -3202px -3734px;
+}
+
+.bg-rs_ribbon {
+  width: 512px; height: 512px;
+  background: url('/images/alcremie-sprite.webp') -3734px -3734px;
+}
+
+.bg-shiny_clover {
+  width: 512px; height: 512px;
+  background: url('/images/alcremie-sprite.webp') -4266px -10px;
+}
+
+.bg-shiny_flower {
+  width: 512px; height: 512px;
+  background: url('/images/alcremie-sprite.webp') -4266px -542px;
+}
+
+.bg-shiny_ribbon {
+  width: 512px; height: 512px;
+  background: url('/images/alcremie-sprite.webp') -4266px -1074px;
+}
+
+.bg-shiny_star {
+  width: 512px; height: 512px;
+  background: url('/images/alcremie-sprite.webp') -4266px -1606px;
+}
+
+.bg-vc_clover {
+  width: 512px; height: 512px;
+  background: url('/images/alcremie-sprite.webp') -4266px -2138px;
+}
+
+.bg-vc_flower {
+  width: 512px; height: 512px;
+  background: url('/images/alcremie-sprite.webp') -4266px -2670px;
 }
