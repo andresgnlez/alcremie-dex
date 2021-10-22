@@ -1,8 +1,20 @@
-/**
- * This is an example of a type/interface that's used in more than just
- * one place throughout the app.
- */
-export interface TypeExample {
+enum Sweet {
+  'strawberry',
+  'berry',
+  'love',
+  'star',
+  'clover',
+  'ribbon',
+}
+
+export interface Alcremie {
   id: string;
-  anyProperty: number;
+  name: string;
+  sweet: Sweet;
+  caught: boolean;
+}
+
+export interface AlcremieFamily {
+  name: string;
+  members: Alcremie[];
 }
