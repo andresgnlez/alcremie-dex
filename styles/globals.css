@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  body {
+    @apply font-sans antialiased;
+  }
+}
+
 .bg-vc_ribbon {
   width: 512px; height: 512px;
   background: url('/images/alcremie-sprite.webp') -10px -10px;
