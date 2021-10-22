@@ -58,49 +58,49 @@
             "family": "Ruby Cream",
             "members": [
                 {
-                    "id": "rc_strawberry",
+                    "id": "rc-strawberry",
                     "name": "Ruby Cream - Strawberry",
                     "instructions": "",
                     "sweet": "strawberry",
                     "caught": false
                 },
                 {
-                    "id": "rc_berry",
+                    "id": "rc-berry",
                     "name": "Ruby Cream - Berry",
                     "instructions": "",
                     "sweet": "berry",
                     "caught": false
                 },
                 {
-                    "id": "rc_love",
+                    "id": "rc-love",
                     "name": "Ruby Cream - Love",
                     "instructions": "",
                     "sweet": "love",
                     "caught": false
                 },
                 {
-                    "id": "rc_star",
+                    "id": "rc-star",
                     "name": "Ruby Cream - Star",
                     "instructions": "",
                     "sweet": "star",
                     "caught": false
                 },
                 {
-                    "id": "rc_clover",
+                    "id": "rc-clover",
                     "name": "Ruby Cream - Clover",
                     "instructions": "",
                     "sweet": "clover",
                     "caught": false
                 },
                 {
-                    "id": "rc_flower",
+                    "id": "rc-flower",
                     "name": "Ruby Cream - Flower",
                     "instructions": "",
                     "sweet": "flower",
                     "caught": false
                 },
                 {
-                    "id": "rc_ribbon",
+                    "id": "rc-ribbon",
                     "name": "Ruby Cream - Ribbon",
                     "instructions": "",
                     "sweet": "ribbon",
