@@ -2,12 +2,13 @@
     "data": [
         {
             "name": "Vanilla Cream",
+            "instructions": "Spinning clockwise for less than 5 seconds during the day",
             "members": [
                 {
                     "id": "vc-strawberry",
                     "name": "Strawberry",
                     "sweet": "strawberry",
-                    "caught": false
+                    "caught": true
                 },
                 {
                     "id": "vc-berry",
@@ -31,13 +32,13 @@
                     "id": "vc-clover",
                     "name": "Clover",
                     "sweet": "clover",
-                    "caught": false
+                    "caught": true
                 },
                 {
                     "id": "vc-flower",
                     "name": "Flower",
                     "sweet": "flower",
-                    "caught": false
+                    "caught": true
                 },
                 {
                     "id": "vc-ribbon",
@@ -49,6 +50,7 @@
         },
         {
             "name": "Ruby Cream",
+            "instructions": "Spinning counterclockwise for less than 5 seconds during the day",
             "members": [
                 {
                     "id": "rc-strawberry",
@@ -96,12 +98,13 @@
         },
         {
             "name": "Matcha Cream",
+            "instructions": "Spinning clockwise for less than 5 seconds at night",
             "members": [
                 {
                     "id": "mac-strawberry",
                     "name": "Strawberry",
                     "sweet": "strawberry",
-                    "caught": false
+                    "caught": true
                 },
                 {
                     "id": "mac-berry",
@@ -113,13 +116,13 @@
                     "id": "mac-love",
                     "name": "Love",
                     "sweet": "love",
-                    "caught": false
+                    "caught": true
                 },
                 {
                     "id": "mac-star",
                     "name": "Star",
                     "sweet": "star",
-                    "caught": false
+                    "caught": true
                 },
                 {
                     "id": "mac-clover",
@@ -131,18 +134,19 @@
                     "id": "mac-flower",
                     "name": "Flower",
                     "sweet": "flower",
-                    "caught": false
+                    "caught": true
                 },
                 {
                     "id": "mac-ribbon",
                     "name": "Ribbon",
                     "sweet": "ribbon",
-                    "caught": false
+                    "caught": true
                 }
             ]
         },
         {
             "name": "Mint Cream",
+            "instructions": "Spinning counterclockwise for more than 5 seconds at night",
             "members": [
                 {
                     "id": "mic-strawberry",
@@ -190,12 +194,13 @@
         },
         {
             "name": "Lemon Cream",
+            "instructions": "Spinning clockwise for more than 5 seconds at night",
             "members": [
                 {
                     "id": "lc-strawberry",
                     "name": "Strawberry",
                     "sweet": "strawberry",
-                    "caught": false
+                    "caught": true
                 },
                 {
                     "id": "lc-berry",
@@ -225,7 +230,7 @@
                     "id": "lc-flower",
                     "name": "Flower",
                     "sweet": "flower",
-                    "caught": false
+                    "caught": true
                 },
                 {
                     "id": "lc-ribbon",
@@ -237,12 +242,13 @@
         },
         {
             "name": "Salted Cream",
+            "instructions": "Spinning counterclockwise for less than 5 seconds at night",
             "members": [
                 {
                     "id": "sc-strawberry",
                     "name": "Strawberry",
                     "sweet": "strawberry",
-                    "caught": false
+                    "caught": true
                 },
                 {
                     "id": "sc-berry",
@@ -254,7 +260,7 @@
                     "id": "sc-love",
                     "name": "Love",
                     "sweet": "love",
-                    "caught": false
+                    "caught": true
                 },
                 {
                     "id": "sc-star",
@@ -272,7 +278,7 @@
                     "id": "sc-flower",
                     "name": "Flower",
                     "sweet": "flower",
-                    "caught": false
+                    "caught": true
                 },
                 {
                     "id": "sc-ribbon",
@@ -284,6 +290,7 @@
         },
         {
             "name": "Ruby Swirl",
+            "instructions": "Spinning counterclockwise for more than 5 seconds during the day",
             "members": [
                 {
                     "id": "rs-strawberry",
@@ -331,6 +338,7 @@
         },
         {
             "name": "Caramel Swirl",
+            "instructions": "Spinning clockwise for more than 5 seconds during the day",
             "members": [
                 {
                     "id": "cs-strawberry",
@@ -378,6 +386,7 @@
         },
         {
             "name": "Rainbow Swirl",
+            "instructions": "Spinning counterclockwise for more than 10 seconds between 7:00 PM and 7:59 PM in-game time",
             "members": [
                 {
                     "id": "ras-strawberry",
@@ -425,6 +434,7 @@
         },
         {
             "name": "Shiny",
+            "instructions": "Good luck!",
             "members": [
                 {
                     "id": "shiny-strawberry",

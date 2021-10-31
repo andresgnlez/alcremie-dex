@@ -17,4 +17,5 @@ export interface Alcremie {
 export interface AlcremieFamily {
   name: string;
   members: Alcremie[];
+  instructions: string;
 }
