@@ -392,19 +392,19 @@
                     "id": "ras-strawberry",
                     "name": "Strawberry",
                     "sweet": "strawberry",
-                    "caught": false
+                    "caught": true
                 },
                 {
                     "id": "ras-berry",
                     "name": "Berry",
                     "sweet": "berry",
-                    "caught": false
+                    "caught": true
                 },
                 {
                     "id": "ras-love",
                     "name": "Love",
                     "sweet": "love",
-                    "caught": false
+                    "caught": true
                 },
                 {
                     "id": "ras-star",
@@ -416,19 +416,19 @@
                     "id": "ras-clover",
                     "name": "Clover",
                     "sweet": "clover",
-                    "caught": false
+                    "caught": true
                 },
                 {
                     "id": "ras-flower",
                     "name": "Flower",
                     "sweet": "flower",
-                    "caught": false
+                    "caught": true
                 },
                 {
                     "id": "ras-ribbon",
                     "name": "Ribbon",
                     "sweet": "ribbon",
-                    "caught": false
+                    "caught": true
                 }
             ]
         },
